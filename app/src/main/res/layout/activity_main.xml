@@ -17,5 +17,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RecyclerView Expandable" />
+
+        <Button
+            android:id="@+id/btnMotionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motion Layout" />
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

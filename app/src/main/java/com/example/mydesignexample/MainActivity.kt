@@ -3,6 +3,7 @@ package com.example.mydesignexample
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.mydesignexample.motionlayout.MotionLayoutActivity
 import com.example.mydesignexample.recyclerviewexpandable.RecyclerViewExpandableActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -16,5 +17,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, RecyclerViewExpandableActivity::class.java))
         }
 
+        btnMotionLayout.setOnClickListener {
+            startActivity(Intent(this, MotionLayoutActivity::class.java))
+        }
     }
 }
